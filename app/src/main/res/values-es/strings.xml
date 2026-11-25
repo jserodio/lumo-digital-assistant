@@ -1,0 +1,64 @@
+<resources>
+    <!-- app_name_en / app_name_es are intentionally not translated here:
+         they are literal labels for the two launcher aliases. -->
+
+    <string name="app_name">Lumo como asistente</string>
+
+    <string name="accessibility_label">Lumo: escribir la pregunta</string>
+    <string name="accessibility_description">Escribe la pregunta que dictaste en la caja de texto de Proton Lumo y pulsa enviar. Solo se usa con la app Lumo y solo cuando tú invocas el asistente.</string>
+    <string name="lumo_launch_failed">No se pudo abrir Lumo</string>
+    <string name="toast_copied">Pregunta copiada: pégala en Lumo</string>
+    <string name="toast_auto_send">Escribiendo tu pregunta en Lumo…</string>
+    <string name="clipboard_label">Pregunta para Lumo</string>
+
+    <string name="screen_title">Lumo como asistente digital</string>
+    <string name="intro">Android solo ofrece en «Asistente digital» las apps que declaran el rol de asistente. Lumo no lo declara y por eso no aparece: esta app ocupa ese hueco y reenvía la invocación a Lumo.</string>
+
+    <string name="lumo_missing_title">No se encontró Lumo</string>
+    <string name="lumo_missing_line">Instala o abre Lumo y luego toca «Reintentar detección».</string>
+
+    <string name="status_title">Estado</string>
+    <string name="status_lumo_detected">✓ Lumo detectado: %1$s (%2$s)</string>
+    <string name="status_lumo_not_detected">✗ Lumo no detectado</string>
+    <string name="status_role_held">✓ Esta app es el asistente digital predeterminado</string>
+    <string name="status_role_not_held">• Esta app aún no es el asistente digital</string>
+    <string name="status_role_unavailable">• Este dispositivo no expone el rol (usa los ajustes)</string>
+    <string name="status_system_assistant">• Asistente del sistema: %1$s</string>
+    <string name="status_accessibility_on">✓ Auto-envío por accesibilidad activo</string>
+    <string name="status_accessibility_off">• Auto-envío por accesibilidad desactivado (opcional)</string>
+
+    <string name="set_assistant">Establecer como asistente digital</string>
+    <string name="open_assistant_settings">Abrir ajustes del asistente</string>
+    <string name="open_default_apps">Ajustes › Aplicaciones predeterminadas</string>
+    <string name="open_lumo">Abrir Lumo</string>
+
+    <string name="test_title">Probar la redirección</string>
+    <string name="test_intro">Pulsa «Probar»: se ejecuta el mismo camino que usa el gesto del asistente. Si escribes una pregunta, se intenta llevar a Lumo.</string>
+    <string name="test_query_label">Pregunta de prueba (opcional)</string>
+    <string name="test_button">Probar</string>
+
+    <string name="options_title">Opciones</string>
+    <string name="copy_title">Copiar la pregunta al portapapeles</string>
+    <string name="copy_subtitle">Lumo no acepta texto desde otras apps: se copia y pegas con un toque.</string>
+    <string name="auto_send_title">Auto-escribir la pregunta en Lumo (experimental)</string>
+    <string name="auto_send_subtitle">Usa accesibilidad para escribir y enviar el texto dentro de Lumo.</string>
+    <string name="enable_accessibility">Activar servicio de accesibilidad</string>
+    <string name="show_toast_title">Mostrar aviso al redirigir</string>
+
+    <string name="diagnostics_title">Diagnóstico</string>
+    <string name="candidates">Candidatos Lumo: %1$s</string>
+    <string name="candidates_none">ninguno</string>
+    <string name="assistant_component">Componente del asistente: %1$s</string>
+    <string name="assistant_component_unset">(no definido)</string>
+    <string name="package_hint">Si tu Lumo usa otro paquete, escríbelo aquí (vacío = autodetección):</string>
+    <string name="package_label">Paquete de Lumo</string>
+    <string name="save_package">Guardar paquete</string>
+    <string name="retry_detection">Reintentar detección</string>
+
+    <string name="adb_title">Alternativa por ADB</string>
+    <string name="adb_intro">Si el diálogo del rol no aparece en tu ROM, fíjalo por ADB:</string>
+    <string name="adb_outro">Después mantén pulsado el botón de encendido o usa el gesto de esquina y Lumo se abrirá.</string>
+
+    <string name="language_title">Idioma</string>
+    <string name="language_note">Cambia la interfaz y el nombre de la app en la pantalla de inicio.</string>
+</resources>

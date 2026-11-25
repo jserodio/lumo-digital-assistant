@@ -1,0 +1,66 @@
+<resources>
+    <!-- Constant labels for the two launcher aliases: never translated. -->
+    <string name="app_name_en">Lumo Assistant Bridge</string>
+    <string name="app_name_es">Lumo como asistente</string>
+
+    <!-- Application label (follows the system locale). -->
+    <string name="app_name">Lumo Assistant Bridge</string>
+
+    <string name="accessibility_label">Lumo: type the question</string>
+    <string name="accessibility_description">Types the question you dictated into the Proton Lumo text box and taps send. It is used only with the Lumo app and only when you invoke the assistant.</string>
+    <string name="lumo_launch_failed">Could not open Lumo</string>
+    <string name="toast_copied">Question copied: paste it in Lumo</string>
+    <string name="toast_auto_send">Typing your question in Lumo…</string>
+    <string name="clipboard_label">Question for Lumo</string>
+
+    <string name="screen_title">Lumo as Digital Assistant</string>
+    <string name="intro">Android only lists apps that declare the assistant role under Digital Assistant. Lumo does not declare it, so it does not appear: this app fills that gap and forwards the invocation to Lumo.</string>
+
+    <string name="lumo_missing_title">Lumo not found</string>
+    <string name="lumo_missing_line">Install or open Lumo, then tap "Retry detection".</string>
+
+    <string name="status_title">Status</string>
+    <string name="status_lumo_detected">✓ Lumo detected: %1$s (%2$s)</string>
+    <string name="status_lumo_not_detected">✗ Lumo not detected</string>
+    <string name="status_role_held">✓ This app is the default digital assistant</string>
+    <string name="status_role_not_held">• This app is not the digital assistant yet</string>
+    <string name="status_role_unavailable">• This device does not expose the role (use Settings)</string>
+    <string name="status_system_assistant">• System assistant: %1$s</string>
+    <string name="status_accessibility_on">✓ Auto-send via accessibility is on</string>
+    <string name="status_accessibility_off">• Auto-send via accessibility is off (optional)</string>
+
+    <string name="set_assistant">Set as digital assistant</string>
+    <string name="open_assistant_settings">Open assistant settings</string>
+    <string name="open_default_apps">Settings › Default apps</string>
+    <string name="open_lumo">Open Lumo</string>
+
+    <string name="test_title">Test the redirect</string>
+    <string name="test_intro">Tap \"Test\" to run the same path as the assistant gesture. If you enter a question, the app tries to hand it to Lumo.</string>
+    <string name="test_query_label">Test question (optional)</string>
+    <string name="test_button">Test</string>
+
+    <string name="options_title">Options</string>
+    <string name="copy_title">Copy question to clipboard</string>
+    <string name="copy_subtitle">Lumo does not accept text from other apps: it is copied so you can paste it with one tap.</string>
+    <string name="auto_send_title">Auto-type the question in Lumo (experimental)</string>
+    <string name="auto_send_subtitle">Uses accessibility to type and send the text inside Lumo.</string>
+    <string name="enable_accessibility">Enable accessibility service</string>
+    <string name="show_toast_title">Show a toast when redirecting</string>
+
+    <string name="diagnostics_title">Diagnostics</string>
+    <string name="candidates">Lumo candidates: %1$s</string>
+    <string name="candidates_none">none</string>
+    <string name="assistant_component">Assistant component: %1$s</string>
+    <string name="assistant_component_unset">(not set)</string>
+    <string name="package_hint">If your Lumo uses a different package, type it here (empty = auto-detect):</string>
+    <string name="package_label">Lumo package</string>
+    <string name="save_package">Save package</string>
+    <string name="retry_detection">Retry detection</string>
+
+    <string name="adb_title">ADB fallback</string>
+    <string name="adb_intro">If the role dialog does not appear on your ROM, set it with ADB:</string>
+    <string name="adb_outro">Then hold the power button or use the corner gesture and Lumo will open.</string>
+
+    <string name="language_title">Language</string>
+    <string name="language_note">Changes the interface and the app name shown on the home screen.</string>
+</resources>

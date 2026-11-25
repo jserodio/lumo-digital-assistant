@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+**/build/
+!keystore/
+local.properties
+keystore.properties
+
+# IDE
+.idea/
+*.iml
+*.hprof
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local artifacts (releases are attached to GitHub Releases, not committed)
+*.apk
+*.aab
+!**/src/**/*.apk
+
+# Attachments/screenshots used while developing
+attachments/
